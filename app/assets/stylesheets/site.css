@@ -539,9 +539,9 @@ header .no-right-border {
 
 .big-icon-heart {
   display: inline-block;
-  background: url('https://s3.amazonaws.com/jetstrap-site/images/website/index/why_icon.png') no-repeat transparent;
-  width: 123px;
-  height: 123px;
+  background: url('Yahoo.png') no-repeat transparent;
+  width: 128px;
+  height: 128px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5),

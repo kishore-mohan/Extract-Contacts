@@ -93,92 +93,9 @@
     <div class="l">
       <a href="/#top" class="jetstrap-logo"></a>
     </div>
-    <div class="r">
-      <a href="/#features" class="link">Tour</a>
-      <a href="/#social" class="link">Buzz</a>
-      <a href="/plans" class="link">Plans</a>
-      <a href="http://blog.jetstrap.com/" class="link" target="_blank">Blog</a>
-
-      <a id="header-login-button" href="#login-modal" role="button" data-toggle="modal" class="button flat-blue-button no-right-border">Log in</a><a href="/plans" class="button flat-gray-button no-left-border">Sign up</a>
-
-    </div>
   </div>
 </header>
-<div id="content-wrap">
-
-  <div id="fb-root"></div>
-
-  <a name="top"></a>
-  <div id="index" data-spy="scroll">
-    <div id="cta-content">
-      <div class="wrapped-content">
-        <h1 class="proxima-bold"><i>EXTRACT</i> Your Contacts</h1>
-        <h2 class="proxima-regular">Choose Your Network, <b>Get Contacts</b>
-      </div>
-    </div>
-
-    <div id="faq" class="wrapped-content">
-      <div class="grid-row clearfix">
-        <div class="grid-3">
-          <a class="big-icon-plane" href="https://twitter.com/jetstrap"></a>
-          <h3>Google</h3>
-          Get all you Google contacts in Two Clicks
-        </div>
-        <div class="grid-3">
-          <a class="big-icon-wrench" href="https://twitter.com/jetstrap"></a>
-          <h3>Facebook</h3>
-          Get all you Facebook contacts in Two Clicks
-        </div>
-        <div class="grid-3">
-          <a class="big-icon-heart" href="https://twitter.com/jetstrap"></a>
-          <h3>Yahoo</h3>
-          Get all you Yahoo contacts in Two Clicks
-        </div>
-      </div>
-    </div>
-
-    <div class="hr"></div>
-
-    <a name="social"></a>
-
-    <div class="hr"></div>
-
-  </div>
-
-
-</div>
-<footer>
-  <div class="footer-top">
-    <div class="wrapped-content">
-      <div class="l">
-        <a href="/" class="link">Home</a>
-        <a href="/plans" class="link">Plans</a>
-        <a href="http://blog.jetstrap.com/" class="link" target="_blank">Blog</a>
-        <a href="/help" class="link">Help</a>
-        <a href="http://docs.jetstrap.com/" class="link" target="_blank">Docs</a>
-      </div>
-      <div class="r">
-        <a class="social-link twitter" href="https://twitter.com/jetstrap"></a>
-        <a class="social-link facebook" href="https://www.facebook.com/Jetstrap"></a>
-        <a class="social-link google" href="https://plus.google.com/116021408276300205608/posts"></a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <div class="wrapped-content">
-      <div class="l">&copy 2013 Drifty Co. <a href="/tos">Terms of Service</a> <a href="/privacy">Privacy</a></div>
-      <div class="r">Piloted by <a href="http://www.drifty.com"><b>Drifty Co.</b></a> in Madison, Wisconsin</div>
-    </div>
-  </div>
-</footer>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="https://s3.amazonaws.com/jetstrap-site/lib/underscore-min.js"></script>
-<script src="https://s3.amazonaws.com/jetstrap-site/lib/backbone-min.js"></script>
-<script src="https://s3.amazonaws.com/jetstrap-site/lib/bootstrap_custom/js/bootstrap.min.js"></script>
-<script src="https://s3.amazonaws.com/jetstrap-site/js/other_scripts.js" type="text/javascript"></script>
-
-
+<%=yield%>
+    <%= render 'layouts/header/footer'%>
 </body>
 </html>
