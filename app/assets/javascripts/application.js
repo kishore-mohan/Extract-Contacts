@@ -12,4 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require dataTables/jquery.dataTables
+//= require contacts
 //= require_tree .
+

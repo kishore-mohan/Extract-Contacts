@@ -34,16 +34,28 @@
 
     <div class="hr"></div>
 
-    <a name="social"></a>
-
-    <div class="hr"></div>
-
   </div>
 
-  <% @contacts.each do |c|%>
-      <ul>
-        <li><%= c[:name]%> : 	<%= c[:email]%></li>
-      </ul>
-  <%end%>
+ <%unless @contacts.blank? %>
+
+  <h1>Extracted Contacts</h1>
+
+  <table id = "contacts" class="display">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% @contacts.each do |c|%>
+        <tr>
+          <td><%= c[:name]%></td>
+          <td><%=  c[:email] %></td>
+        </tr>
+    <% end %>
+    </tbody>
+  </table>
 
 </div>
+<%end%>
