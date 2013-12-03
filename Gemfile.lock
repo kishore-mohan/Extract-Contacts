@@ -64,6 +64,7 @@ GEM
     omnicontacts (0.3.4)
       json
       rack
+    pg (0.17.0)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -122,6 +123,7 @@ DEPENDENCIES
   jquery-rails
   jquery-ui-rails
   omnicontacts
+  pg
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   simple_form
